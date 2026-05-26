@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<svg width="273" height="96.75" viewBox="0 0 273 96.75" version="1.1" id="svg1" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <namedview id="namedview1" pagecolor="#505050" bordercolor="#eeeeee" borderopacity="1"></namedview>
+  <defs id="defs1">
+    <clipPath id="clip-0">
+      <path clip-rule="nonzero" d="M 0 0 L 273 0 L 273 96.75 L 0 96.75 Z M 0 0 " id="path1"></path>
+    </clipPath>
+    <image id="source-40515" x="0" y="0" width="364" height="129"></image>
+  </defs>
+  <g clip-path="url(#clip-0)" id="g1">
+    <use xlink:href="#source-40515" transform="matrix(0.75, 0, 0, 0.75, 0, 0)" id="use1"></use>
+  </g>
+</svg>
