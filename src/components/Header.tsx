@@ -7,6 +7,7 @@ interface NavItem {
 }
 
 const NAV_ITEMS: NavItem[] = [
+  { label: 'Live Demo', id: 'live-demo' },
   { label: 'Services', id: 'services' },
   { label: 'Who We Help', id: 'who-we-help' },
   { label: 'What We Build', id: 'what-we-build' },
@@ -111,7 +112,7 @@ const Header: React.FC = () => {
             <button
               type="button"
               onClick={() => setIsMobileOpen((v) => !v)}
-              className="text-slate-900 hover:text-electric-teal transition-colors duration-200 p-1.5"
+              className="text-slate-900 hover:text-electric-teal transition-colors duration-200 p-2.5 -mr-2.5"
               aria-label="Toggle menu"
               aria-expanded={isMobileOpen}
             >

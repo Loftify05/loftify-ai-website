@@ -1,7 +1,7 @@
-import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Services from './components/Services';
+import LiveDemoSection from './components/LiveDemoSection';
 import WhoWeHelp from './components/WhoWeHelp';
 import WhatWeBuild from './components/WhatWeBuild';
 import OurProcess from './components/OurProcess';
@@ -17,6 +17,7 @@ function App() {
       <main>
         <Hero />
         <Services />
+        <LiveDemoSection />
         <WhoWeHelp />
         <WhatWeBuild />
         <OurProcess />

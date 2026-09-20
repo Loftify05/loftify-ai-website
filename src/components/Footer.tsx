@@ -3,7 +3,7 @@ import { Linkedin, Instagram, Mail } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-navy text-white py-16">
+    <footer className="bg-navy text-white py-12 md:py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
           <div className="col-span-1 md:col-span-2">
@@ -49,13 +49,14 @@ const Footer: React.FC = () => {
 
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-widest text-slate-400 mb-5">Company</h4>
-            <ul className="space-y-3">
-              <li><a href="#about" className="text-slate-300 hover:text-electric-teal transition-colors duration-300 text-sm">About</a></li>
-              <li><a href="#services" className="text-slate-300 hover:text-electric-teal transition-colors duration-300 text-sm">Services</a></li>
-              <li><a href="#who-we-help" className="text-slate-300 hover:text-electric-teal transition-colors duration-300 text-sm">Who We Help</a></li>
-              <li><a href="#what-we-build" className="text-slate-300 hover:text-electric-teal transition-colors duration-300 text-sm">What We Build</a></li>
-              <li><a href="#process" className="text-slate-300 hover:text-electric-teal transition-colors duration-300 text-sm">Our Process</a></li>
-              <li><a href="#contact" className="text-slate-300 hover:text-electric-teal transition-colors duration-300 text-sm">Contact</a></li>
+            <ul className="space-y-1">
+              <li><a href="#live-demo" className="inline-block py-1.5 text-slate-300 hover:text-electric-teal transition-colors duration-300 text-sm">Live Demo</a></li>
+              <li><a href="#about" className="inline-block py-1.5 text-slate-300 hover:text-electric-teal transition-colors duration-300 text-sm">About</a></li>
+              <li><a href="#services" className="inline-block py-1.5 text-slate-300 hover:text-electric-teal transition-colors duration-300 text-sm">Services</a></li>
+              <li><a href="#who-we-help" className="inline-block py-1.5 text-slate-300 hover:text-electric-teal transition-colors duration-300 text-sm">Who We Help</a></li>
+              <li><a href="#what-we-build" className="inline-block py-1.5 text-slate-300 hover:text-electric-teal transition-colors duration-300 text-sm">What We Build</a></li>
+              <li><a href="#process" className="inline-block py-1.5 text-slate-300 hover:text-electric-teal transition-colors duration-300 text-sm">Our Process</a></li>
+              <li><a href="#contact" className="inline-block py-1.5 text-slate-300 hover:text-electric-teal transition-colors duration-300 text-sm">Contact</a></li>
             </ul>
           </div>
 

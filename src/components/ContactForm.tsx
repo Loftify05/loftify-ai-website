@@ -111,9 +111,9 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <section id="contact" className="py-24 bg-white">
+    <section id="contact" className="py-16 md:py-24 bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12 animate-fade-in">
+        <div className="text-center mb-8 md:mb-12 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold text-navy mb-4">
             Let's Talk Automation
           </h2>
@@ -122,7 +122,7 @@ const ContactForm: React.FC = () => {
           </p>
         </div>
 
-        <form onSubmit={handleSubmit} className="bg-neutral p-8 md:p-12 rounded-2xl shadow-sm border border-slate-100 animate-slide-up">
+        <form onSubmit={handleSubmit} className="bg-neutral p-6 md:p-12 rounded-2xl shadow-sm border border-slate-100 animate-slide-up">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="form-field">
               <label htmlFor="name" className="block text-sm font-semibold text-navy mb-2">

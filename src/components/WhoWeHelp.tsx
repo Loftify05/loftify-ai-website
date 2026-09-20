@@ -32,7 +32,7 @@ const audiences = [
 
 const WhoWeHelp: React.FC = () => {
   return (
-    <section id="who-we-help" className="relative bg-white overflow-hidden py-24 md:py-28">
+    <section id="who-we-help" className="relative bg-white overflow-hidden py-16 md:py-28">
       {/* Subtle background glow */}
       <div className="pointer-events-none absolute -top-24 -right-16 w-[480px] h-[480px] rounded-full bg-electric-teal/[0.04] blur-3xl lf-drift-a" />
       <div className="pointer-events-none absolute bottom-0 -left-16 w-[420px] h-[420px] rounded-full bg-navy/[0.04] blur-3xl lf-drift-b" />
@@ -66,7 +66,7 @@ const WhoWeHelp: React.FC = () => {
           ))}
         </div>
 
-        <Reveal className="mt-16 md:mt-20 rounded-3xl border border-slate-100 bg-gradient-to-br from-neutral to-white p-8 md:p-10 lg:p-12 shadow-sm flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+        <Reveal className="mt-10 md:mt-20 rounded-3xl border border-slate-100 bg-gradient-to-br from-neutral to-white p-6 md:p-10 lg:p-12 shadow-sm flex flex-col md:flex-row md:items-center md:justify-between gap-6">
           <div className="md:max-w-xl">
             <h3 className="text-xl md:text-2xl font-bold text-navy tracking-tight mb-2">
               Not sure where AI fits into your business?

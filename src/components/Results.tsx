@@ -10,13 +10,13 @@ const stats = [
 
 const Results: React.FC = () => {
   return (
-    <section className="relative py-24 md:py-32 bg-gradient-to-b from-navy via-navy to-slate-950 overflow-hidden">
+    <section className="relative py-16 md:py-32 bg-gradient-to-b from-navy via-navy to-slate-950 overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-slate-900/40 via-navy/60 to-slate-950/80" />
       <div className="absolute top-0 left-1/4 w-96 h-96 bg-electric-teal/5 rounded-full blur-3xl lf-drift-a" />
       <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-electric-teal/[0.03] rounded-full blur-3xl lf-drift-b" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <Reveal className="text-center mb-16 md:mb-24">
+        <Reveal className="text-center mb-10 md:mb-24">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 tracking-tight">
             Results Our Clients See
           </h2>
@@ -29,7 +29,7 @@ const Results: React.FC = () => {
           {stats.map((stat, i) => (
             <Reveal key={stat.label} delay={i * 140}>
               <div className="group h-full">
-                <div className="relative h-full p-8 md:p-10 rounded-2xl overflow-hidden backdrop-blur-md transition-all duration-500 hover:-translate-y-1">
+                <div className="relative h-full p-6 md:p-10 rounded-2xl overflow-hidden backdrop-blur-md transition-all duration-500 hover:-translate-y-1">
                   <div className="absolute inset-0 bg-gradient-to-br from-white/[0.08] to-white/[0.03] border border-white/15 group-hover:border-electric-teal/40 transition-colors duration-500" />
                   <div className="absolute inset-0 bg-gradient-to-b from-slate-900/20 via-transparent to-slate-900/30 pointer-events-none" />
                   <div className="absolute -inset-0.5 bg-gradient-to-br from-electric-teal/10 to-transparent rounded-2xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-500 -z-10" />

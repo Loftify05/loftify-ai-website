@@ -35,9 +35,9 @@ const services = [
 
 const Services: React.FC = () => {
   return (
-    <section id="services" className="py-24 bg-neutral">
+    <section id="services" className="py-16 md:py-24 bg-neutral">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <Reveal className="text-center mb-16">
+        <Reveal className="text-center mb-10 md:mb-16">
           <div className="inline-flex items-center gap-2 bg-electric-teal/10 border border-electric-teal/25 rounded-full px-4 py-1.5 mb-5">
             <span className="w-1.5 h-1.5 rounded-full bg-electric-teal animate-pulse" />
             <span className="text-electric-teal text-sm font-medium">Services</span>
@@ -50,10 +50,10 @@ const Services: React.FC = () => {
           </p>
         </Reveal>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-8">
           {services.map((s, i) => (
             <Reveal key={s.title} delay={i * 110}>
-              <div className="feature-card bg-white p-8 rounded-2xl shadow-lg group h-full">
+              <div className="feature-card bg-white p-6 md:p-8 rounded-2xl shadow-lg group h-full">
                 <div className="bg-electric-teal/10 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:bg-electric-teal group-hover:scale-110 transition-all duration-300">
                   <s.icon className="w-7 h-7 text-electric-teal group-hover:text-white transition-colors duration-300" />
                 </div>

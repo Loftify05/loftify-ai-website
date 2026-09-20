@@ -51,7 +51,7 @@ const offerings = [
 
 const WhatWeBuild: React.FC = () => {
   return (
-    <section id="what-we-build" className="relative py-24 md:py-28 bg-neutral overflow-hidden">
+    <section id="what-we-build" className="relative py-16 md:py-28 bg-neutral overflow-hidden">
       <div className="pointer-events-none absolute -bottom-24 -left-16 w-[480px] h-[480px] rounded-full bg-electric-teal/[0.04] blur-3xl lf-drift-a" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -83,7 +83,7 @@ const WhatWeBuild: React.FC = () => {
         </div>
 
         {/* Closing CTA — dark card */}
-        <Reveal className="mt-16 md:mt-20 relative overflow-hidden rounded-3xl bg-gradient-to-br from-navy via-slate-900 to-slate-950 p-8 md:p-10 lg:p-12 shadow-2xl">
+        <Reveal className="mt-10 md:mt-20 relative overflow-hidden rounded-3xl bg-gradient-to-br from-navy via-slate-900 to-slate-950 p-6 md:p-10 lg:p-12 shadow-2xl">
           <div className="pointer-events-none absolute -top-16 -right-12 w-72 h-72 bg-electric-teal/20 rounded-full blur-3xl lf-drift-a" />
           <div className="pointer-events-none absolute -bottom-16 -left-12 w-60 h-60 bg-electric-teal/10 rounded-full blur-3xl lf-drift-b" />
 

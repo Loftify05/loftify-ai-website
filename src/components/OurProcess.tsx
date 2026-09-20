@@ -27,7 +27,7 @@ const steps = [
 
 const OurProcess: React.FC = () => {
   return (
-    <section id="process" className="relative py-24 md:py-28 bg-white overflow-hidden">
+    <section id="process" className="relative py-16 md:py-28 bg-white overflow-hidden">
       <div className="pointer-events-none absolute top-[20%] -right-12 w-[380px] h-[380px] rounded-full bg-electric-teal/[0.04] blur-3xl lf-drift-a" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -70,7 +70,7 @@ const OurProcess: React.FC = () => {
         </div>
 
         {/* CTA strip */}
-        <Reveal className="mt-16 md:mt-20 rounded-3xl border border-slate-100 bg-gradient-to-br from-neutral to-white p-8 md:p-10 lg:p-12 shadow-sm flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+        <Reveal className="mt-10 md:mt-20 rounded-3xl border border-slate-100 bg-gradient-to-br from-neutral to-white p-6 md:p-10 lg:p-12 shadow-sm flex flex-col md:flex-row md:items-center md:justify-between gap-6">
           <div className="md:max-w-xl">
             <h3 className="text-xl md:text-2xl font-bold text-navy tracking-tight mb-2">
               Start with one workflow
